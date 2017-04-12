@@ -1,0 +1,18 @@
+<div class="jumbotron container text-center">
+ <img class="d-block my-auto rounded container-fluid" width=300 src="https://images-na.ssl-images-amazon.com/images/G/01/aplusautomation/vendorimagesC%233A%235CMy%20Documents%235CHarman%235CAmazon%235CSynchros%235CS300i%20BLK%235CSynchros%202._CB368108017_.jpg">
+<p><h3 class="display-2"> Headphones:</h3>
+#DareToListen to JBL headphones with premium drivers that generate pure, accurate, extended bass - competing products simply cannot match it.We have two kinds of headphoness
+</p>
+{{#serach-filter filter=(action 'filterByName') as |results|}}
+{{#each results as |filtered|}}
+  {{headset-listing headset=filtered routeName="headsets.show"}}
+{{/each}}
+{{/serach-filter}}
+<br>
+<div class="btn-group btn-group-lg">
+<a href="/in-ear" class="btn btn-success">In-ear Headphones</a>
+<a href="/on-ear" class="btn btn-danger">On-ear Headphones</a>
+</div>
+
+</div>
+{{outlet}}

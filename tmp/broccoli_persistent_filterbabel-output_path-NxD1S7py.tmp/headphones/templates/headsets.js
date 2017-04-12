@@ -1,0 +1,3 @@
+define("headphones/templates/headsets", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "SAsVp3PY", "block": "{\"statements\":[[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "headphones/templates/headsets.hbs" } });
+});

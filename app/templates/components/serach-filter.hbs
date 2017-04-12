@@ -1,0 +1,5 @@
+<div class="input-group">
+  <span class="input-group-addon">Search:</span>
+  {{input value=value key-up=(action 'handleFilterEntry') class="form-control" type="text"  placeholder="Search..."}}
+</div>
+   {{yield results}}

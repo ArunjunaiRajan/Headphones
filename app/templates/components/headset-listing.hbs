@@ -1,0 +1,16 @@
+  <article class="jumbotron media">
+      <div class="media-left media-middle"><img class="d-flex media-object" src="{{headset.image}}"></div>
+    <div class="media-body">
+    <h3 class="media-heading">{{#link-to routeName headset class="btn btn-primary"}}{{headset.title}}{{/link-to}}</h3>
+    <div class="lead">
+      <span>Model:</span> {{headset.title}}
+    </div>
+    <div class="lead">
+      <span>Type:</span> {{headset.type}}
+    </div>
+    <div class="lead">
+      <span>Rate:</span> {{headset.rate}}
+    </div>
+  </div>
+  </article>
+{{yield}}

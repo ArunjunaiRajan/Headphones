@@ -1,0 +1,3 @@
+define("headphones/templates/error", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template({ "id": "Io2fBW41", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"container text-center\"],[\"static-attr\",\"style\",\"background:#fff\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"img\",[]],[\"static-attr\",\"class\",\"img-fluid\"],[\"static-attr\",\"src\",\"http://blog.teamtreehouse.com/wp-content/uploads/2015/05/InternetSlowdown_Day.gif\"],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "headphones/templates/error.hbs" } });
+});

@@ -1,0 +1,42 @@
+<form class="container jumbotron">
+  <div class="input-group">
+    <label class="input-group-addon">Name</label>
+    {{input type="Name" value=name class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name" autofocus="autofocus"}}
+    <span class="glyphicon glyphicon-user form-control-feedback" aria-hidden="true"></span>
+</div>
+  <br>
+  <div class="input-group">
+    <label class="input-group-addon">Email address</label>
+    {{input value=email type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email-id" autofocus="autofocus"}}
+    <span class="glyphicon glyphicon-envelope form-control-feedback" aria-hidden="true"></span>
+<br></div>
+    <br>
+    <hr>
+  <fieldset class="form-group">
+    <legend>Select your feedback</legend>
+  </fieldset>
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optionsRadios" id="happy" value="option1" checked>
+      Happy with our service
+    </label>
+  </div>
+  <div class="form-check">
+  <label class="form-check-label">
+      <input type="radio" class="form-check-input" name="optionsRadios" id="not_happy" value="option2">
+      Not so happy with our service
+    </label>
+  </div>
+  <br>
+  <hr>
+  <div class="form-group">
+    <label for="exampleTextarea">Any Comments:</label>
+    {{textarea value=comment class="form-control" id="comments" rows="3"}}
+</div>
+  <button disabled={{isDisabled}} {{action 'saveresponse'}} type="submit" class="btn btn-outline-primary">Submit</button>
+  {{#if responseMessage}}
+  <div class="alert alert-success">{{responseMessage}}</div>
+{{/if}}
+</form>
+{{outlet}}

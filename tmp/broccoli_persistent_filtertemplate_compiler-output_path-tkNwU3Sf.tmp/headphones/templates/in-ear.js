@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"v0IZYNZW","block":"{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"headphones/templates/in-ear.hbs"}});
